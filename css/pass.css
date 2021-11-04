@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.conteiner {
+  padding-top: 50px;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Noto Sans", sans-serif;
+}
+.logo {
+  padding-bottom: 30px;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.text {
+  padding-top: 35px;
+  text-align: center;
+}
+.text h1 {
+  margin: 0px 0px 10px 0px;
+  font-size: 30px;
+}
+
+.text p {
+  margin: 0px;
+}
+
+.email {
+  display: flex;
+  text-align: center;
+}
+
+.email img {
+  max-width: 24px;
+}
