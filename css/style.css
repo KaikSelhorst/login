@@ -3,7 +3,6 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: "Noto Sans", sans-serif;
-  background: #5a5757;
 }
 
 * {
@@ -15,8 +14,9 @@ img {
 }
 /* Box-Max */
 .conteiner-bg {
+  height: 631px;
   background: white;
-  margin: 10px auto;
+  margin: 0px auto;
   max-width: 1000px;
   display: flex;
   flex-wrap: wrap;
@@ -25,6 +25,7 @@ img {
 
 /* Formulario */
 .formulario {
+  padding-right: 15px;
   margin: 0 auto;
 }
 .logo {
@@ -69,13 +70,80 @@ img {
   display: flex;
   flex-direction: column;
 }
-
 .dados input {
   border-style: none;
-  padding: 10px;
-  margin-bottom: 10px;
+  padding: 10px 10px 10px 10px;
+  width: 300px;
 }
 .dados input::placeholder {
-  font-size: 15px;
+  font-size: 1.1em;
   color: black;
+}
+.dados-text {
+  margin-bottom: 10px;
+  align-items: center;
+  display: flex;
+}
+.dados img {
+  max-width: 20px;
+}
+
+.dados-password {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+/* Check */
+.check {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.check-box {
+  font-size: 14px;
+}
+.check-link a {
+  font-weight: bold;
+  color: black;
+  font-size: 14px;
+}
+/* Botao Log In */
+.login-button {
+  display: flex;
+  flex-direction: column;
+}
+
+.botao {
+  border-radius: 4px;
+  border-style: none;
+  background-image: linear-gradient(120deg, #36c857 0%, #36c857 100%);
+  padding: 15px;
+  cursor: pointer;
+  color: white;
+}
+
+.login-button p {
+  margin: 0px;
+  font-size: 13.5px;
+}
+.login-button a {
+  color: black;
+  font-weight: bold;
+}
+.copy {
+  margin-top: 25px;
+  font-size: 13.5px;
+  color: #c0bbbb;
+}
+
+@media (max-width: 900px) {
+  .banner {
+    display: none;
+  }
+  .formulario {
+    margin: 0 auto;
+  }
 }
