@@ -133,12 +133,13 @@ img {
   color: black;
   font-weight: bold;
 }
+/* Copyright */
 .copy {
   margin-top: 45px;
   font-size: 13.5px;
   color: #c0bbbb;
 }
-
+/* Mobile */
 @media (max-width: 900px) {
   .banner {
     display: none;
