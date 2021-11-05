@@ -29,29 +29,29 @@ img {
   margin: 0 auto;
 }
 .logo {
-  padding: 30px 0px 50px 0px;
+  padding: 30px 0px 20px 0px;
 }
 /* Login */
-.login-text {
+.sign-text {
   color: black;
 }
-.login-text h1 {
+.sign-text h1 {
   font-size: 30px;
 }
 /* Google */
-.login-google {
+.sign-google {
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
-.login-google img {
+.sign-google img {
   display: block;
   max-width: 24px;
   margin-right: 10px;
 }
 
-.login-google a {
+.sign-google a {
   text-decoration: none;
   color: black;
   font-weight: bold;
@@ -79,8 +79,13 @@ img {
   font-size: 1.1em;
   color: black;
 }
+.dados-name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
 .dados-text {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   align-items: center;
   display: flex;
 }
@@ -105,13 +110,14 @@ img {
 .check-box {
   font-size: 14px;
 }
-.check-link a {
-  font-weight: bold;
+.terms {
+  text-decoration: none;
   color: black;
-  font-size: 14px;
+  font-weight: bold;
 }
+
 /* Botao Log In */
-.login-button {
+.sign-button {
   display: flex;
   flex-direction: column;
 }
@@ -125,16 +131,16 @@ img {
   color: white;
 }
 
-.login-button p {
+.sign-button p {
   margin: 0px;
   font-size: 13.5px;
 }
-.login-button a {
+.sign-button a {
   color: black;
   font-weight: bold;
 }
 .copy {
-  margin-top: 45px;
+  margin-top: 25px;
   font-size: 13.5px;
   color: #c0bbbb;
 }
