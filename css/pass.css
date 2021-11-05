@@ -33,6 +33,7 @@ img {
 }
 
 .text p {
+  font-size: 14.5px;
   margin: 0px;
 }
 /* Email */
@@ -73,8 +74,8 @@ img {
   border-style: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 15.5px;
 }
-
 .botao p {
   color: black;
   text-align: center;
@@ -83,4 +84,35 @@ img {
 .botao a {
   font-weight: bold;
   color: black;
+}
+.botao p {
+  margin: 24px 0px 0px 0px;
+}
+
+@media (max-width: 480px) {
+  .form-bg {
+    padding: 15px;
+  }
+  .botao p {
+    font-size: 16px;
+  }
+  .email input::placeholder {
+    font-size: 18px;
+  }
+
+  .email input {
+    border-style: none;
+    padding: 10px 25px;
+    font-size: 19px;
+  }
+}
+@media (max-width: 350px) {
+  .icon {
+    display: none;
+  }
+  .email input {
+    border-style: none;
+    padding: 10px 12px;
+    font-size: 19px;
+  }
 }
